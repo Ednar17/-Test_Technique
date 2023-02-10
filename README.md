@@ -1,5 +1,3 @@
-# -Test_Technique_Hyvilo-
-Test_Technique_Pour_Hyvilo
 Test
 ## Membres :
 Sami Guetarni - [Ednar17](https://github.com/Ednar17)  
@@ -24,7 +22,9 @@ DATABASE_URI=
 ```
 - nodemon (redemare le serveur)
 
-#Tache non accompli 
+### Tache Non Accompli
+
+
 Utilisation de ReactJs avec commonJS ( je n'ai pas trés bien compris pouquoi 
 je n'ai pas réussi a exporter le modulen je suis passé donc a une version de js plutot 
 etant plus spécialisé en backEND)
@@ -48,9 +48,3 @@ Sami Guetarni
 Etudiant 
 
 
-## Liens
-### PostGreSQl
-[Hebergeur](https://render.com/) - fichier creation BD disponible dans le dossier docs  
-[Tuto serveur + code](https://youtu.be/CvCiNeLnZ00?t=3687)  
-### Test
-- [Postman](https://www.postman.com/) pour tester les requetes sur le serveur
