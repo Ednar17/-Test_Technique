@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+     <div id="root">
+        <App />
+      </div>
+      
+      <script type="text/babel">
+        ReactDOM.render(<App />, document.getElementById('root'));
+      </script>
+<head>
+    <title>Test Technique Hyvilo</title>
+      <!-- TailWindCSS -->
+      <link rel="stylesheet" href="../server/node_modules/tailwindcss/base.css">
+      <link rel="stylesheet" href="../server/node_modules/tailwindcss/components.css">
+      <link rel="stylesheet" href="../server/node_modules/tailwindcss/utilities.css">
+    <!-- style et script du TP -->
+    <link rel="stylesheet" href="velocite.css" type="text/css">
+    <script  src="velocite.js"></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
+   
+
+<body>
+   
+      <!-- La map -->
+      <div id='map' style='width: 400px; height: 300px;'></div>
+    <!-- La fenêtre popup associée aux marqueurs -->
+    <div id="popup"></div>
+    <div id="contact-list">
+        <table id="contacts-table">
+        </table>
+      </div>
+            <!-- Le formulaire de saisie d'un nouveau contact -->
+            <div id="form">
+                <h2>Ajout d'un contact</h2>
+                <button class="btnClose"></button>
+                <table>
+                    <tr>
+                        <td>Nom :</td>
+                        <td><input type="text" id="nom" name="nom"></td>
+                    </tr>
+                    <tr>
+                        <td>Description :</td>
+                        <td><input id="description" name="description"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Type :</td>
+                        <td>
+                            <select id="type" name="type">
+                                <option value="entreprise">Entreprise</option>
+                                <option value="particulier">Particulier</option>
+                                <option value="collectivité">Collectivité</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button id="btnAjouter">Ajouter</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+              <!-- Le formulaire d'information d'un nouveau contact -->
+            <div id="form1">
+                <h2>Information de contact</h2>
+                <button class="btnClose1"></button>
+                <table>
+                    <tr>
+                        <td>Nom :</td>
+                        <td><input type="text" id="nom1" name="nom1" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Description :</td>
+                        <td><textarea id="description1" name="description1" disabled></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Type :</td>
+                        <td><input type="text" id="type1" name="type1" disabled></td>
+                    </tr>
+                </table>
+            </div>
+           
+             <!-- Le formulaire pour afficher les informations d'un contact existant -->
+        </body>
+</html>
