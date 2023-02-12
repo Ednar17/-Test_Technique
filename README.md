@@ -41,8 +41,6 @@ Web veant de notre TP3 de velocité comme je vous en avais parlé au moment de l
 Vous pouvez voir que plusieurs module on été installé tel que babel ou webpack pour justement affecter ReactJs pour les aniciens naviguateurs 
 
 
-Branche Master Pour acceder a l'application (public=> front)
-
 Cordialement 
 Sami Guetarni 
 Etudiant 
